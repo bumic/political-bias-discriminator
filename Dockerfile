@@ -28,7 +28,4 @@ RUN cd ibc && tar xvzf sample_ibc.tar.gz && rm sample_ibc.tar.gz && cd ..
 RUN apt-get update
 RUN apt-get install nano -y
 RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib
-RUN make
-
-# Execute
-CMD ["./model"]
+RUN make library
