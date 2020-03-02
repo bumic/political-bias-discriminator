@@ -8,9 +8,14 @@ https://cs224d.stanford.edu/reports/MisraBasak.pdf
 - Ideological Book Corpus
   - https://people.cs.umass.edu/~miyyer/ibc/index.html
 
-# Running with Docker
-Firstly install Docker from [here](#https://www.docker.com/products/docker-desktop)
+# Running Repository
+## Setting up twitter credentials
+Create a .env file or ask for one. Alternatively in the docker container you can 
+do the following:
+`export TWITTER_API_KEY="<Twitter api key>"`
+`export TWITTER_API_SECRET="<Twitter api secret key>"`
 
-Now simply type 
-`make`
-to build and enter the newly built docker container.
+## Docker
+This docker container compiles tensorflow binaries from source.
+1. Install Docker from [here](https://www.docker.com/products/docker-desktop)
+2. `make`
