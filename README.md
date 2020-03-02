@@ -13,8 +13,10 @@ https://cs224d.stanford.edu/reports/MisraBasak.pdf
 Create a .env file or ask for one. Alternatively in the docker container you can 
 do the following:
 
-`export TWITTER_API_KEY=<Twitter api key>
-export TWITTER_API_SECRET=<Twitter api secret key>`
+```
+$ export TWITTER_API_KEY=<Twitter api key>
+$ export TWITTER_API_SECRET=<Twitter api secret key>
+```
 
 ## Docker
 This docker container compiles tensorflow binaries from source.
