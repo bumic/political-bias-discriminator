@@ -7,7 +7,7 @@ image:
 
 container:
 	docker run \
-	-v "/Users/curtismason/workspace/political-bias-discriminator/model.cpp:/usr/src/political-bias-discriminator/model.cpp" \
+	-v "~/model.cpp:/usr/src/political-bias-discriminator/model.cpp" \
 	--env-file .env \
 	-i -t $(image) /bin/bash
 
